@@ -16,10 +16,6 @@ async function login() {
   await page.evaluate(() => {
     window.alert('Você está logado!');
   });
-
-
-
-  // await browser.close();
 };
 
 login();
