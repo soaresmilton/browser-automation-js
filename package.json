@@ -4,7 +4,8 @@
   "description": "Repositório destinado a automação Web, utilizando a linguagem JavaScript e a biblioteca Puppeteer",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "login": "node src/login.js"
   },
   "keywords": [],
   "author": "",
