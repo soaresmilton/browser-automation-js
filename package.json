@@ -1,12 +1,15 @@
 {
   "name": "browser-automation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repositório destinado a automação Web, utilizando a linguagem JavaScript e a biblioteca Puppeteer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^13.1.2"
+  }
 }
